@@ -1,5 +1,6 @@
 package br.upf.ads.banco.entities;
 
+import br.upf.ads.banco.entities.conta.Conta;
 import org.bson.types.ObjectId;
 import org.mongodb.morphia.annotations.Embedded;
 import org.mongodb.morphia.annotations.Entity;

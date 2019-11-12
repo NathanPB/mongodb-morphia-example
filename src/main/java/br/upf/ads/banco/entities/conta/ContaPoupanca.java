@@ -1,4 +1,4 @@
-package br.upf.ads.banco.entities;
+package br.upf.ads.banco.entities.conta;
 
 import br.upf.ads.banco.entities.history.Historico;
 
