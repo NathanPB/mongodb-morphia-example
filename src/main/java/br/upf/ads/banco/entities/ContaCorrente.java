@@ -1,12 +1,16 @@
 package br.upf.ads.banco.entities;
 
+import br.upf.ads.banco.entities.history.Historico;
+
+import java.util.List;
+
 public class ContaCorrente extends Conta {
 
     private int limite;
     private int juro;
 
-    public ContaCorrente(int numero, int saldo, int agencia, int limite, int juro) {
-        super(numero, saldo, agencia);
+    public ContaCorrente(int numero, int saldo, int agencia, List<Historico> historico, int limite, int juro) {
+        super(numero, saldo, agencia, historico);
         this.limite = limite;
         this.juro = juro;
     }
