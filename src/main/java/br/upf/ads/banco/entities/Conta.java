@@ -1,6 +1,6 @@
 package br.upf.ads.banco.entities;
 
-public class Conta {
+public abstract class Conta {
     private int numero;
     private int saldo;
     private int agencia;
