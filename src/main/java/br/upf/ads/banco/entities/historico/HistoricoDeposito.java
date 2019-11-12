@@ -1,11 +1,11 @@
-package br.upf.ads.banco.entities.history;
+package br.upf.ads.banco.entities.historico;
 
 import java.text.SimpleDateFormat;
 import java.time.LocalDateTime;
 
-public class HistoricoSaque extends Historico {
+public class HistoricoDeposito extends Historico {
 
-    public HistoricoSaque(LocalDateTime data, int valor) {
+    public HistoricoDeposito(LocalDateTime data, int valor) {
         super(data, valor);
     }
 

@@ -1,4 +1,4 @@
-package br.upf.ads.banco.entities.history;
+package br.upf.ads.banco.entities.historico;
 
 import java.time.LocalDateTime;
 

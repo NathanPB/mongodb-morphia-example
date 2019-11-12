@@ -1,6 +1,6 @@
 package br.upf.ads.banco.entities.conta;
 
-import br.upf.ads.banco.entities.history.Historico;
+import br.upf.ads.banco.entities.historico.Historico;
 
 import java.util.List;
 
