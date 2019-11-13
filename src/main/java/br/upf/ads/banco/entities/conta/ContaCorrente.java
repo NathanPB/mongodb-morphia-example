@@ -9,6 +9,7 @@ public class ContaCorrente extends Conta {
     private int limite;
     private int juro;
 
+    public ContaCorrente(){}
     public ContaCorrente(int numero, int saldo, int agencia, List<Historico> historico, int limite, int juro) {
         super(numero, saldo, agencia, historico);
         this.limite = limite;

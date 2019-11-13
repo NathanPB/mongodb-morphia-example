@@ -5,6 +5,7 @@ import java.time.LocalDateTime;
 
 public class HistoricoDeposito extends Historico {
 
+    public HistoricoDeposito(){}
     public HistoricoDeposito(LocalDateTime data, int valor) {
         super(data, valor);
     }

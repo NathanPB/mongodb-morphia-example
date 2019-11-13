@@ -8,6 +8,7 @@ public class ContaPoupanca extends Conta {
 
     private double rendimento;
 
+    public ContaPoupanca(){}
     public ContaPoupanca(int numero, int saldo, int agencia, List<Historico> historico, double rendimento) {
         super(numero, saldo, agencia, historico);
         this.rendimento = rendimento;

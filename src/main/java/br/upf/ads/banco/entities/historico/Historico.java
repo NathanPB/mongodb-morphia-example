@@ -7,6 +7,7 @@ public abstract class Historico {
     private LocalDateTime data;
     private int valor;
 
+    public Historico(){}
     public Historico(LocalDateTime data, int valor) {
         this.data = data;
         this.valor = valor;

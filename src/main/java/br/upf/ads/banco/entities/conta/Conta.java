@@ -3,6 +3,7 @@ package br.upf.ads.banco.entities.conta;
 import br.upf.ads.banco.entities.historico.Historico;
 import org.mongodb.morphia.annotations.Embedded;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public abstract class Conta {
@@ -11,8 +12,9 @@ public abstract class Conta {
     private int agencia;
 
     @Embedded
-    private List<Historico> historico;
+    private List<Historico> historico = new ArrayList<>();
 
+    public Conta(){}
     public Conta(int numero, int saldo, int agencia, List<Historico> historico) {
         this.numero = numero;
         this.saldo = saldo;

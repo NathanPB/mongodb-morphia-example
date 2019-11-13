@@ -22,6 +22,8 @@ public class Cliente {
     @Embedded
     private List<Conta> contas;
 
+    public Cliente(){}
+
     public Cliente(String nome, Endereco endereco, List<Conta> contas) {
         this.nome = nome;
         this.endereco = endereco;
